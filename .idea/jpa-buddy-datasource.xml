@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="e43511e7-4cea-453e-ad89-ab92ed8bf11b" name="PP_1_1_3-4_JDBC_Hibernate" url="jdbc:mysql://localhost/schema_digital_trash?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+    </data-sources>
+  </component>
+</project>

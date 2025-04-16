@@ -1,9 +1,18 @@
 package jm.task.core.jdbc.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Data
+@AllArgsConstructor
+@Builder
+@Entity
 @Table
 public class User {
     @Id
@@ -58,5 +67,10 @@ public class User {
 
     public void setAge(Byte age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return id + " " + name + " " + lastName + " " + age;
     }
 }
