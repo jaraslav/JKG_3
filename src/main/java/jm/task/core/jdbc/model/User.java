@@ -1,21 +1,20 @@
 package jm.task.core.jdbc.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.*;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Data
 @AllArgsConstructor
 @Builder
 @Entity
-@Table
+@Table(name = "users")
 public class User {
     @Id
+    @jakarta.persistence.Column(name = "id", nullable = false)
     private Long id;
 
     @Column
@@ -27,7 +26,7 @@ public class User {
     @Column
     private Byte age;
 
-    public User() {
+    private User() {
 
     }
 

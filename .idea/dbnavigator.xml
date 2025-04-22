@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DBNavigator.Project.CodeGeneratorManager">
+    <generator-states>
+      <generator-state category="JAVA" />
+    </generator-states>
+  </component>
   <component name="DBNavigator.Project.DDLFileAttachmentManager">
     <mappings />
     <preferences />
   </component>
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="false" />
+    <value-preview-pinned value="false" />
+  </component>
   <component name="DBNavigator.Project.DatabaseAssistantManager">
-    <assistants />
+    <assistants>
+      <assistant-state connection-id="06830b3c-6ba3-4a01-b969-b34482e94e9e" default-profile-name="" selected-profile-name="" selected-model-name="" assistant-type="GENERIC" selected-action="SHOW_SQL" availability="UNAVAILABLE" acknowledgement="NONE">
+        <messages />
+      </assistant-state>
+      <assistant-state connection-id="16f8f7b9-7890-4885-ba31-8da93de766d2" default-profile-name="" selected-profile-name="" selected-model-name="" assistant-type="GENERIC" selected-action="SHOW_SQL" availability="UNAVAILABLE" acknowledgement="NONE">
+        <messages />
+      </assistant-state>
+      <assistant-state connection-id="7d7a9125-3b73-43f6-91ff-e0fdf0d4a199" default-profile-name="" selected-profile-name="" selected-model-name="" assistant-type="GENERIC" selected-action="SHOW_SQL" availability="UNAVAILABLE" acknowledgement="NONE">
+        <messages />
+      </assistant-state>
+      <assistant-state connection-id="e14c0adf-1512-4cd7-8d3b-7ab1b5e236f8" default-profile-name="" selected-profile-name="" selected-model-name="" assistant-type="GENERIC" selected-action="SHOW_SQL" availability="UNAVAILABLE" acknowledgement="NONE">
+        <messages />
+      </assistant-state>
+    </assistants>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
@@ -14,8 +37,8 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="7d7a9125-3b73-43f6-91ff-e0fdf0d4a199">
-      <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
+    <connection id="e14c0adf-1512-4cd7-8d3b-7ab1b5e236f8">
+      <console name="Connection" type="STANDARD" schema="schema_digital_trash" session="Main"><![CDATA[select * from users]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -24,8 +47,30 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="e14c0adf-1512-4cd7-8d3b-7ab1b5e236f8" />
+  </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="7d7a9125-3b73-43f6-91ff-e0fdf0d4a199" dataset="schema_digital_trash.users" active-filter-id="" />
+    <filter-actions connection-id="e14c0adf-1512-4cd7-8d3b-7ab1b5e236f8" dataset="schema_digital_trash.users" active-filter-id="" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.JavaExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="false" />
+      <execution-inputs />
+    </execution-history>
+    <execution-variables-cache />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <execution-variables-cache />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -33,7 +78,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="7d7a9125-3b73-43f6-91ff-e0fdf0d4a199" active="true" signed="true">
+      <connection id="e14c0adf-1512-4cd7-8d3b-7ab1b5e236f8" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -548,5 +593,9 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+    <execution-variable-types />
   </component>
 </project>
