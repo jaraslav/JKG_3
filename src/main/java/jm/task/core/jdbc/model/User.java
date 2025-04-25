@@ -3,18 +3,14 @@ package jm.task.core.jdbc.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.*;
 
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
 
-@Data
-@AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "users")
 public class User {
-    @Id
-    @jakarta.persistence.Column(name = "id", nullable = false)
+    @Id @GeneratedValue
     private Long id;
 
     @Column

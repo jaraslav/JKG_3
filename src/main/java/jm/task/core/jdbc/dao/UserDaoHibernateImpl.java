@@ -10,7 +10,6 @@ import org.hibernate.Transaction;
 import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
-    private int id = 1;
 
     public UserDaoHibernateImpl() {
     }
@@ -29,16 +28,14 @@ public class UserDaoHibernateImpl implements UserDao {
     @Override
     public void dropUsersTable() {
         request("DROP TABLE IF EXISTS users;");
-        id = 1;
     }
 
     @Override
     public void saveUser(String name, String lastName, byte age) {
         request("INSERT INTO users"
-                + " (id, name, lastName, age) VALUES (" + id + ", '" + name
+                + " (name, lastName, age) VALUES ('" + name
                 + "', '" + lastName + "', " + age
                 + ");");
-        id++;
     }
 
     @Override
